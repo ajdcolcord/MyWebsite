@@ -1,0 +1,172 @@
+
+
+body {
+	
+	font-family: "Helvetica Neue";
+	text-align: center;
+	background-image: url('eNEW.jpg') no-repeat center center fixed;
+	
+}
+
+img {
+	border-radius: 5px;
+}
+
+
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: -1;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  border-radius: 0px;
+}
+
+h2 {
+	font-size: 35px;
+	font-family: "Helvetica Neue";
+	color: black;
+	text-align: center;
+}
+
+h3 {
+	font-size: 30px;
+	font-family: "Helvetica Neue";
+	color: black;
+	text-align: center;
+	font-weight: lighter;
+}
+
+h4 {
+	font-family: "Helvetica Neue";
+	color: black;
+	text-align: center;
+	font-weight: lighter;
+}
+
+hr {
+	color: white;
+}
+
+
+p1 {
+	color: black;
+	font-family: "Helvetica Neue";
+	font-size: 18px;
+	font-weight: lighter;
+	text-align: justify;
+}
+
+p2 {
+	padding-left: 10px;
+	padding-right: 10px;
+	color: black;
+	font-family: "Helvetica Neue";
+	font-size: 20px;
+	text-align: justify;
+}
+
+p3 {
+	
+	color: black;
+	font-family: "Helvetica Neue";
+	font-size: 18px;
+	text-align: justify;
+	background-color:rgba(240,240,240,0.65);
+	border-radius: 3px;
+	padding: 5px;
+	font-weight: lighter;
+
+}
+
+
+div {
+	border-radius: 3px;
+}
+
+div.left {
+	float: left;
+	width: 45%;
+}
+
+div.right {
+	float: right;
+	width: 45%;
+}
+
+div.clear {
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.a1 { 
+
+	color: #000;
+	border: solid black 1px;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+	border-radius: 3px;
+	background-color:rgba(240,240,240,0.65);
+	-webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+
+
+a.a1:hover {
+	color: white;
+	background-color: gray;
+	border-radius: 3px;
+}
+
+a.anav { 
+	color: #000;
+	border: solid black 1px;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+	background-color:rgba(240,240,240,0.65);
+
+
+	-webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+
+a.anav:hover {
+	color: white;
+	background-color: gray;
+}
+
+a.anavPressed { 
+	color: white;
+	border: solid black 1px;
+	background-color: black;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+}
+
+
+
+
+
+
+/* Styling for images in photography section of site.
+ * @used photography.html
+ */
+.image-container img {
+	border-radius: 5px;
+	display:block;
+	margin:5px auto;
+	max-width:900px;
+	width:100%;
+}
