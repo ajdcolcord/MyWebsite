@@ -2,9 +2,8 @@
 
 body {
 	
-	font-family: "Helvetica";
+	font-family: "Helvetica Neue";
 	text-align: center;
-	background-image: url('eNEW.jpg') no-repeat center center fixed;
 	
 }
 
@@ -20,44 +19,35 @@ img {
   z-index: -1;
 
   /* Preserve aspet ratio */
-  min-width: 100%;
+  width: 100%;
+  min-width: 200%;
   min-height: 100%;
   border-radius: 0px;
 }
 
-.paragraph {
-	background-color:rgba(240,240,240,0.65); 
-	max-width: 900px; 
-	margin:0 auto;
-}
-
 h2 {
-	display: inline;
-	font-size: 22px;
-	font-family: "Helvetica";
+	font-size: 35px;
+	font-family: "Helvetica"; /*Neue"; */
 	color: black;
 	text-align: center;
-	padding: 10px;
-	background-color:rgba(240,240,240,0.65);
-	border-radius: 3px;
 }
 
 h3 {
 	display: inline;
 	font-size: 22px;
-	font-family: "Helvetica";
-	font-weight: lighter;
+	font-family: "Helvetica"; /* Neue"; */
 	color: black;
 	text-align: center;
+	font-weight: lighter;
 	padding: 10px;
-	background-color:rgba(240,240,240,0.65);
+	background-color:rgba(240,240,240,0.85);
 	border-radius: 3px;
 }
 
 
 
 h4 {
-	font-family: "Helvetica";
+	font-family: "Helvetica"; /* Neue"; */
 	color: black;
 	text-align: center;
 	font-weight: lighter;
@@ -70,7 +60,7 @@ hr {
 
 p1 {
 	color: black;
-	font-family: "Helvetica";
+	font-family: "Helvetica"; /* Neue"; */
 	font-size: 18px;
 	font-weight: lighter;
 	text-align: justify;
@@ -80,7 +70,7 @@ p2 {
 	padding-left: 10px;
 	padding-right: 10px;
 	color: black;
-	font-family: "Helvetica";
+	font-family: "Helvetica"; /*  Neue"; */
 	font-size: 20px;
 	text-align: justify;
 }
@@ -88,10 +78,10 @@ p2 {
 p3 {
 	
 	color: black;
-	font-family: "Helvetica";
+	font-family: "Helvetica"; /* Neue"; */
 	font-size: 18px;
 	text-align: justify;
-	background-color:rgba(240,240,240,0.65);
+	background-color:rgba(240,240,240,0.85);
 	border-radius: 3px;
 	padding: 5px;
 	font-weight: lighter;
@@ -128,7 +118,7 @@ a.a1 {
 	padding: 5px 5px 5px 5px;
 	text-decoration: none;
 	border-radius: 3px;
-	background-color:rgba(240,240,240,0.65);
+	background-color:rgba(240,240,240,0.85);
 	-webkit-transition: background-color 300ms linear;
     -moz-transition: background-color 300ms linear;
     -o-transition: background-color 300ms linear;
@@ -148,9 +138,7 @@ a.anav {
 	border: solid black 1px;
 	padding: 5px 5px 5px 5px;
 	text-decoration: none;
-	background-color:rgba(240,240,240,0.65);
-	border-radius: 3px;
-	margin: 3px
+	background-color:rgba(240,240,240,0.85);
 
 
 	-webkit-transition: background-color 300ms linear;
@@ -171,7 +159,6 @@ a.anavPressed {
 	background-color: black;
 	padding: 5px 5px 5px 5px;
 	text-decoration: none;
-	border-radius: 3px;
 }
 
 
@@ -186,7 +173,49 @@ a.anavPressed {
 	border-radius: 5px;
 	display:block;
 	margin:5px auto;
-	width: 150px;
-	max-width:150px; /* 900px max */
+	max-width:900px;
 	width:100%;
 }
+
+ 
+.section-container {
+  max-width: 2200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.section {
+  /*min-width: calc(50% - 50px);*/
+  float: left;
+  margin: auto;
+  padding: 5px;
+  max-width: 400px;
+}
+
+/*
+@media screen and (max-width: 780px) {
+  .section-container: {
+    width: 100%;
+    margin: 5px;
+    overflow: auto;
+  }
+ 
+  .section {
+    width: initial;
+    float: none;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+ 
+  .section:first-child {
+    margin-top: 5px;
+  }
+ 
+  .section:last-child {
+    margin-bottom: 5px;
+  }
+}
+*/
+
