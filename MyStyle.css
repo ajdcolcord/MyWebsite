@@ -29,6 +29,15 @@ img {
 	background-color:rgba(240,240,240,0.65); 
 	max-width: 900px; 
 	margin:0 auto;
+	padding: 1%;
+}
+
+#content {
+	padding: 2%;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-bottom: -10px;
+	background-color:rgba(240,240,240,0.65); 
 }
 
 h2 {
@@ -145,12 +154,13 @@ a.a1:hover {
 
 a.anav { 
 	color: #000;
-	border: solid black 1px;
+	border-left: solid black 1px;
+	border-top: solid black 1px;
+	border-right: solid black 1px;
 	padding: 5px 5px 5px 5px;
 	text-decoration: none;
-	background-color:rgba(240,240,240,0.65);
-	border-radius: 3px;
-	margin: 3px
+	background-color:rgba(240,240,240,0.3);
+	margin: 1%;
 
 
 	-webkit-transition: background-color 300ms linear;
@@ -161,19 +171,25 @@ a.anav {
 }
 
 a.anav:hover {
-	color: white;
-	background-color: gray;
+	color: black;
+	background-color: rgba(240,240,240, 0.65);
+
 }
 
 a.anavPressed { 
-	color: white;
-	border: solid black 1px;
-	background-color: black;
+	color: black;
+	background-color: rgba(240,240,240, 0.65);
+	border-left: solid black 1px;
+	border-top: solid black 1px;
+	border-right: solid black 1px;
 	padding: 5px 5px 5px 5px;
 	text-decoration: none;
-	border-radius: 3px;
+	margin: 1%;
 }
 
+#navigation {
+	padding-bottom: 5px;
+}
 
 
 
