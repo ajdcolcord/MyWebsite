@@ -26,3 +26,12 @@ function clickPhoto() {
 function setPictureSize(size, id) {
 	document.getElementById(id).style.width=size;
 }
+
+function changePage(currentNavId, currentBodyId, newNavId, newBodyId) {
+	$(document).ready(function() {
+		$(#newId).click(function() {
+			$(currentBodyId).hide();
+			$(newBodyId).show();
+		});
+	});
+}
